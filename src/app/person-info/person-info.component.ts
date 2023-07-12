@@ -38,5 +38,5 @@ export class PersonInfoComponent {
     'https://www.gatesnotes.com/',
     'https://twitter.com/billgates'
   ]
-  age: number = 67;
+  age: number = 68;
 }
