@@ -1,0 +1,85 @@
+<div class="wrapper">
+    <div class="container">
+        <div class="title">Bill Gates short biography</div>
+        <div class="block-quote">
+            <div class="main-quote">
+                <h1><q>{{mainQuote}}</q></h1>
+            </div>
+            <div class="quotes">
+                <div class="quote">
+                    <q>{{quotes[0]}}</q>
+                </div>
+                <div class="quote">
+                    <q>{{quotes[1]}}</q>
+                </div>
+                <div class="quote">
+                    <q>{{quotes[2]}}</q>
+                </div>
+                <div class="quote">
+                    <q>{{quotes[3]}}</q>
+                </div>
+            </div>
+        </div>
+        <div class="block-bio">
+            <div class="image-box">
+                <div class="img-container">
+                    <img [src]="image" alt="photo">
+                </div>
+            </div>
+            <div class="bio-box">
+                <div class="bio-container">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td class="first">Born:</td>
+                                <td>{{born}}</td>
+                            </tr>
+                            <tr>
+                                <td class="first">Education:</td>
+                                <td>{{education}}</td>
+                            </tr>
+                            <tr>
+                                <td class="first">Occupations:</td>
+                                <td>{{occupations[0]}} &bull; {{occupations[1]}} &bull; {{occupations[2]}} &bull; {{occupations[3]}} &bull; {{occupations[4]}}</td>
+                            </tr>
+                            <tr>
+                                <td class="first">Years active:</td>
+                                <td>{{yearsActive}}</td>
+                            </tr>
+                            <tr>
+                                <td class="first">Founded:</td>
+                                <td>{{founded}}</td>
+                            </tr>
+                            <tr>
+                                <td class="first">Awards:</td>
+                                <td>
+                                    <div>&bull; {{awards[0]}}</div>
+                                    <div>&bull; {{awards[1]}}</div>
+                                    <div>&bull; {{awards[2]}}</div>
+                                    <div>&bull; {{awards[3]}}</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="first">More info:</td>
+                                <td>
+                                    <div>&bull; 
+                                        <a [href]="links[0]">wikipedia</a>
+                                    </div>
+                                    <div>&bull; 
+                                        <a [href]="links[1]">gatesfoundation</a>
+                                    </div>
+                                    <div>&bull; 
+                                        <a [href]="links[2]">gatesnotes</a>
+                                    </div>
+                                    <div>&bull; 
+                                        <a [href]="links[3]">twitter</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
